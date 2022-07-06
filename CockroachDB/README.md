@@ -145,3 +145,4 @@ Take a moment to understand the flags you used:
 - For a cluster in a single region, set 3-5 `--join` addresses. Each starting node will attempt to contact one of the join hosts. In case a join host cannot be reached, the node will try another address on the list until it can join the gossip network.
 - The `--background` flag starts the `cockroach` process in the background so you can continue using the same terminal for other operations.
 
+NOTE: `--background` is deprecated on Windows OS.
